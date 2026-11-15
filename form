@@ -1,0 +1,42 @@
+<h1>Practice form</h1>
+<form>
+    <p>Name</p>
+    <input required type="text"place holder=" enter your name"/>
+    <p>Phone number</p>
+    <input required type="number"place holder=" enter your number"/>
+     <p>Password</p>
+    <input required type="password"place holder=" enter your password"/>
+    <p>Email</p>
+    <input required type="Email"place holder=" enter your email"/>
+     <p>Date of birth</p>
+    <input required type="Date"place holder=" enter your date of birth"/>
+    <p>Picture</p>
+    <input required type="file"/>
+    <p>Time</p>
+    <input required type="time"/>
+    <br>
+    <input type="checkbox"/>maths
+    <br>
+    <input type="checkbox"/>urdu
+    <br>
+    <input type="checkbox"/>science
+    <br>
+    <br>
+    <input type="range"/>
+    <br>
+    <br>
+    <p>You are intrested</p>
+   <form>
+  <div>
+    <input type="radio" id="choice-yes" name="answer" value="yes">
+    <label for="choice-yes">Yes</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="choice-no" name="answer" value="no">
+    <label for="choice-no">No</label>
+  </div>
+</form>
+    <br>
+    <button>submit your form</button>
+</form>
